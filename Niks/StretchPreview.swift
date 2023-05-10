@@ -41,28 +41,27 @@ struct StretchPreview: View {
                             .fill(.white)
                             .opacity(0.9)
                             .overlay{
-                                Text("Tembok")
+                                Text("Wall")
                                     .descriptionStyle()
                             }
                             .position(x: viewModel.modelPos[viewModel.curIndex].x+182,
                                       y: viewModel.modelPos[viewModel.curIndex].y-50)
                             .frame(width: 150,
                                    height: 300)
-                    }else if viewModel.curIndex == 6 {
+                    } else if viewModel.curIndex == 6 {
                         Rectangle()
                             .fill(.white)
                             .opacity(0.9)
                             .overlay{
-                                Text("Kursi")
+                                Text("Chair")
                                     .descriptionStyle()
                             }
                             .position(x: viewModel.modelPos[viewModel.curIndex].x+167,
                                       y: viewModel.modelPos[viewModel.curIndex].y-115)
-                            .frame(width: 120,
-                                   height: 80)
+                            .frame(width: 120, height: 80)
                     }
                 }
-
+                
                 if viewModel.curIndex > 0 {
                     ProgressBarView(geometry: geometry,
                                     viewModel: viewModel)
@@ -143,7 +142,7 @@ struct InfoButtonView: View {
                 }
         }
         .position(x: geometry.size.width * 0.95,
-                   y: geometry.size.height * 0.08)
+                  y: geometry.size.height * 0.08)
         .opacity(viewModel.showInfo ? 0.5 : 1)
         .animation(.easeInOut(duration: 0.15), value: viewModel.showInfo)
     }//: - BODY (INFO BUTTON VIEW)

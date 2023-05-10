@@ -44,19 +44,19 @@ struct StretchingView: View {
                         .fill(.white)
                         .opacity(0.9)
                         .overlay{
-                            Text("Tembok")
+                            Text("Wall")
                                 .descriptionStyle()
                         }
                         .position(x: viewModel.modelPos[viewModel.curIndex].x+382,
                                   y: viewModel.modelPos[viewModel.curIndex].y+360)
-                        .frame(width: 250,
-                               height: 500)
+                        .frame(width: 250 , height: 500)
+                    
                 }else if viewModel.curIndex == 6 {
                     Rectangle()
                         .fill(.white)
                         .opacity(0.9)
                         .overlay{
-                            Text("Kursi/\nganjelan")
+                            Text("Chair")
                                 .descriptionStyle()
                         }
                         .position(x: viewModel.modelPos[viewModel.curIndex].x+280,

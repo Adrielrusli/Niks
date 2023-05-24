@@ -18,19 +18,18 @@
 </p>
 
 # About
-Niks  is an app that we crafted to empower academy fellow learners to build a habit that will relax their minds and body to help them fall asleep faster. Many of them, just like Bobby, are overwhelmed by their daily activities, thus making them unable to easily fall asleep. Our app will show you a variety of animation and pleasing visuals, with seamless flow and easy control for the user to use.
+Niks is an app that we crafted to empower academy fellow learners to build a habit that will relax their minds and body to help them fall asleep faster. Many of them, just like Bobby, are overwhelmed by their daily activities, thus making them unable to easily fall asleep. Our app will show you a variety of animation and pleasing visuals, with seamless flow and easy control for the user to use.
 
 ### Preview
 <p align="center">
   <a href="#" target="_blank"><img src="1.png" width="200"></a>
   <a href="#" target="_blank"><img src="2.png" width="200"></a>
   <a href="#" target="_blank"><img src="3.png" width="200"></a>
-  <a href="#" target="_blank"><img src="4.png" width="200"></a>
 </p>
 
 <!-- ABOUT THE FILE & FOLDER STRUCTURE -->
 ## Folder & File Structure
-Berikut struktur file dan folder pada Niks:
+Beriut strukur fle dan folder pada Niks:
 
     .
     ├── Assets                              # Aset Warna, Logo & Gambar
@@ -62,7 +61,11 @@ Berikut struktur file dan folder pada Niks:
 
 * Reusable Components
 * All Stacks (HStack, VStack, ZStack)
-* ScrollView (Vertical)
+* Custom Modifier
+* User Notifications (Daily Notification every 10.00 pm)
+* Watch Connectivity
+* AVKit for Music
+* Animation Sequence
 
 <!-- Used Tools -->
 ## Build With
@@ -92,7 +95,9 @@ git clone https://github.com/dekapd99/Niks.git
 ```
 
 2. Jika sudah Download / Clone Project, silahkan buka Project di Xcode dengan Klik Open a Project or File.
+
 3. Pastikan untuk memilih iPhone 14 pada Target Simulator (Kolom Device dibagian atas XCode). 
+
 4. Build & Run
 
 <!-- What Kind of License? -->
